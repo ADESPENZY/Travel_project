@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.links:hover, .active{
+    @apply border-b-2 border-green-800 text-green-800
+}
+

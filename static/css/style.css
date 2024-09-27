@@ -1,0 +1,11 @@
+.hero {
+    background-image: url("{% static 'image/images/background copy.avif' %}");
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the height to the full viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
